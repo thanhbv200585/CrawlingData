@@ -1,0 +1,38 @@
+Thanh: 
+    AutoPrefix:
+        public static String addPrefixes(String query)
+
+    Processing:
+        public static Model readModel(String fileName)
+        public static Model executeQuery(String queryStr)
+        public static void deleteFile(String fileName)
+        public static void writeModel(String filename, Model model, ISaveModelAs writer)
+
+    QueryByCity
+
+Duc:
+    ICrawler - Interface
+    ISaveModelAs - Interface
+    SaveModelAsTurtle
+
+    QueryDBpedia - Abstract
+    QueryByLake
+    QueryByProvince
+
+Phuong:
+    QueryByVenue
+    QueryByGarden
+    QueryByPagoda
+    QueryByPark
+    QueryByProtectedArea
+    QueryByReligiousBuilding
+    QueryByCave
+    QueryBySquare
+    QueryByWaterfall
+    QueryByLandmark
+    QueryByMuseum
+    QueryByFestival
+    QueryByOthers
+
+Huy:
+    GUI
